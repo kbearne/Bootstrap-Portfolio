@@ -79,18 +79,6 @@ nav a:hover {
     text-decoration: none;
 }
 
-/* The banner takes up flex: 1 (all available flex container space), the container image is set via CSS, the border-box includes 50px padding
-#banner {
-    flex: 1;
-    background-image: url("../images/projectFiveImg.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 50px;
-    box-sizing: border-box;
-}
-*/
-
 /* About me section - profile photo */
 #profilePhoto {
     background-image: url("../images/headshot2.jpg");
@@ -102,75 +90,19 @@ nav a:hover {
     margin: 10px;
 }
 
-/* Work section styling */
-/* Utilises Grid positioning */
-#work {
-    margin: 0px 5%;
-    display: grid;
-    grid-template-rows: 300px 300px 300px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-    "showcaseProject showcaseProject"
-    "projectTwo projectThree"
-    "projectFour projectFive"
-    ;
+/* Cards */
+.content {
+    padding: 50px;
 }
-
-.workGridArea {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 5px;
-    display: grid;
-    align-content: end;
-    position: relative;
+.sectionHeading {
+    text-align: center;
 }
-
-#showcaseProject {
-    grid-area: showcaseProject;
-    background-image: url("../images/kelly-bearne-portfolio-screenshot.png");
+.showsNear  {
+    padding: 0px 30px 30px 30px;
 }
-
-#projectTwo {
-    grid-area: projectTwo;
-    background-image: url("../images/HoriseonCodeRefactorProject.png");
-}
-
-#projectThree {
-    grid-area: projectThree;
-    background-image: url("../images/projectThreeImg.jpg");
-}
-
-#projectFour {
-    grid-area: projectFour;
-    background-image: url("../images/projectFourImg.jpg");
-}
-
-#projectFive {
-    grid-area: projectFive;
-    background-image: url("../images/projectFiveImg.jpg");
-}
-
-#work .workGridArea .heading {
-    position: absolute;
-    background-color: rgb(0, 0, 0, 0.6);
-    padding: 15px;
-    height: auto;
-    color: var(--white);
-    font-size: 18px;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-#showcaseProjectURL {
-    position: absolute;
-    padding: 15px;
-    height: 100%;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+.cardContainer {
+    text-align: center;
+    height: 400px;
 }
 
 /* Footer / Contact section styling */
