@@ -90,19 +90,17 @@ nav a:hover {
     margin: 10px;
 }
 
-/* Cards */
-.content {
-    padding: 50px;
-}
-.sectionHeading {
-    text-align: center;
-}
-.showsNear  {
-    padding: 0px 30px 30px 30px;
-}
+/* Cards styling*/
 .cardContainer {
-    text-align: center;
-    height: 400px;
+    margin-bottom: 15px;
+}
+.card {
+    margin: 0 auto;
+}
+
+/* Applies box shadow to all buttons upon hover */
+.btn:hover {
+    box-shadow: 0 4px 6px rgba(128, 128, 128, 0.3);
 }
 
 /* Footer / Contact section styling */

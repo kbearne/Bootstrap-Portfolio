@@ -52,14 +52,14 @@
         </nav>
     </header>
 
-    <!-- Hero section -->
+    <!-- Hero (jumbotron) section, which contains about me -->
     <div class="jumbotron jumbotron-fluid text-center">
         <div class="container">
             <h1 class="display-4">Kelly Bearne | Portfolio</h1>
-            <!-- About me section -->
-            <p id="profilePhoto" class="text-center">
-            </p>
-            <p class="lead" id="about">I am a highly versatile and customer focused IT Specialist, with 12 years’ experience
+            <p id="profilePhoto"></p>
+            <!-- About me text -->
+            <p class="lead" id="about">I am a highly versatile and customer focused IT Specialist, with 12 years’
+                experience
                 working in a variety
                 of roles within the industry. My career experience and 1st class degree (BSc (Hons) Computing and IT
                 Practice) have provided knowledge and practical experience which I am always keen to put to good use and
@@ -67,92 +67,65 @@
         </div>
     </div>
 
-    <!-- <section class="hero-section">
-        <article id="banner">
-            <h2>Kelly Bearne | Portfolio</h2>
-        </article>
-    </section> -->
-
-    <!-- Work section -->
-    <h2 class="sectionHeading" id="work">Work</h2>
-    <!-- Currently my only projects to showcase are the Horiseon Code Refactor and portfolio -->
-    <!-- Cards -->
-    <div class="container-fluid content">
-        <div class="row showsNear">
-            <!-- Card 1 -->
-            <div class="cardContainer col-lg-2 col-md-4 col-sm-6 mx-auto d-flex flex-column">
+    <!-- Work section
+        Currently my only projects to showcase are the Horiseon Code Refactor and portfolio -->
+    <!-- Bootstrap cards code provided by Bootcamp materials: 03-UX-BOOTSTRAP-MODULE > 02-bootstrap-lesson > activities > 03-Stu-Cards -->
+    <div class="container-fluid">
+        <h2 class="sectionHeading" id="work" style="text-align:center; padding-bottom: 10px;">Work</h2>
+        <div class="row">
+            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
                 <div class="card">
-                    <img src="./assets/images/kelly-bearne-portfolio-screenshot.png" class="card-img-top img-fluid" alt="screenshot of my portfolio project" style="max-height: 160px">
+                    <img src="./assets/images/kelly-bearne-portfolio-screenshot.png" class="card-img-top" alt="Screenshot of the Portfolio deployed application">
                     <div class="card-body">
                         <h5 class="card-title">Kelly Bearne - Portfolio</h5>
                         <p class="card-text">This project fullfils the criteria of building an effective portfolio to highlight my strongest work, which I will continue to add to.</p>
-                        <a href="https://kbearne.github.io/kelly-bearne-portfolio/" class="btn btn-primary" target="_blank">View my project</a>
+                        <a href="https://kbearne.github.io/kelly-bearne-portfolio/" class="btn btn-primary" target="_blank">View project</a>
                     </div>
                 </div>
             </div>
-            <!-- End card 1 -->
 
-            <!-- Card 2 -->
-            <div class="cardContainer col-lg-2 col-md-4 col-sm-6 mx-auto d-flex flex-column">
+            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
                 <div class="card">
-                    <img src="./assets/images/HoriseonCodeRefactorProject.png" class="card-img-top img-fluid" alt="Project coming soon" style="max-height: 160px">
+                    <img src="./assets/images/HoriseonCodeRefactorProject.png" class="card-img-top" alt="Screenshot of the Horiseon Code Refactor deployed application">
                     <div class="card-body">
                         <h5 class="card-title">Horiseon Code Refactor</h5>
                         <p class="card-text">This project fulfils the criteria of refactoring a codebase to follow accessibility standards in order to optimise a site for search engines.</p>
-                        <a href="https://kbearne.github.io/horiseon-code-refactor/" class="btn btn-primary" target="_blank">View my project</a>
+                        <a href="https://kbearne.github.io/horiseon-code-refactor/" class="btn btn-primary" target="_blank">View project</a>
                     </div>
                 </div>
             </div>
-            <!-- End card 2 -->
 
-            <!-- Card 3 -->
-            <div class="cardContainer col-lg-2 col-md-4 col-sm-6 mx-auto d-flex flex-column">
+            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
                 <div class="card">
-                    <img src="./assets/images/projectFiveImg.jpg" class="card-img-top img-fluid" alt="Project coming soon" style="max-height: 160px">
+                    <img src="./assets/images/projectFourImg.jpg" class="card-img-top" alt="Placeholder image">
                     <div class="card-body">
-                        <h5 class="card-title">Another project</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sapien orci. In ipsum elit, condimentum non consequat ac, tincidunt id quam. </p>
-                        <a href="https://github.com/kbearne" class="btn btn-primary">Coming soon</a>
+                        <h5 class="card-title">Project coming soon</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus elit eget mi placerat euismod. Proin elementum dapibus mauris, id tristique ante molestie non.</p>
+                        <a href="https://github.com/kbearne" class="btn btn-primary" target="_blank">Coming soon</a>
                     </div>
                 </div>
             </div>
-            <!-- End card 3 -->
 
-            <!-- Card 4 -->
-            <div class="cardContainer col-lg-2 col-md-4 col-sm-6 mx-auto d-flex flex-column">
+            <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
                 <div class="card">
-                    <img src="./assets/images/projectFourImg.jpg" class="card-img-top img-fluid" alt="Project coming soon" style="max-height: 160px">
+                    <img src="./assets/images/projectFourImg.jpg" class="card-img-top" alt="Placeholder image">
                     <div class="card-body">
-                        <h5 class="card-title">Another project</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sapien orci. In ipsum elit, condimentum non consequat ac, tincidunt id quam.</p>
-                        <a href="https://github.com/kbearne" class="btn btn-primary">Coming soon</a>
+                        <h5 class="card-title">Project coming soon</h5>
+                        <p class="card-text">SLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus elit eget mi placerat euismod. Proin elementum dapibus mauris, id tristique ante molestie non.</p>
+                        <a href="https://github.com/kbearne" class="btn btn-primary" target="_blank">Coming soon</a>
                     </div>
                 </div>
             </div>
-            <!-- End card 4 -->
+        </div><!-- Close row -->
+    </div><!-- Close container fluid -->
 
-            <!-- Card 5 -->
-            <div class="cardContainer col-lg-2 col-md-4 col-sm-6 mx-auto d-flex flex-column">
-                <div class="card">
-                    <img src="./assets/images/projectThreeImg.jpg" class="card-img-top img-fluid" alt="Project coming soon" style="max-height: 160px">
-                    <div class="card-body">
-                        <h5 class="card-title">Another project</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet sapien orci. In ipsum elit, condimentum non consequat ac, tincidunt id quam.</p>
-                        <a href="https://github.com/kbearne" class="btn btn-primary">Coming soon</a>
-                    </div>
-                </div>
-            </div>
-            <!-- End card 5 -->
-        </div>
-    </div>
-    <!-- End cards -->
-    
     <!-- Skills section -->
     <div class="jumbotron jumbotron-fluid text-center">
         <div class="container">
             <h2 class="sectionHeading" id="skills">Skills</h2>
             <p class="lead">
-                Terminal, Git, GitHub, HTML5, CSS3, Flexbox, Grid, Bootstrap, JavaScript, jQuery, APIs, Node.js, NPM, JSON, ECMAScript6, Object-Oriented Programming, Test-Driven Development, React.js, React Hooks, JSX
+                Terminal, Git, GitHub, HTML5, CSS3, Flexbox, Grid, Bootstrap, JavaScript, jQuery, APIs, Node.js, NPM,
+                JSON, ECMAScript6, Object-Oriented Programming, Test-Driven Development, React.js, React Hooks, JSX
             </p>
         </div>
     </div>
@@ -163,7 +136,9 @@
             <ul>
                 <li>
                     <!-- Button opens email client and auto generates the email title -->
-                <a class="btn btn-dark" href="mailto:kelly.b.tadcaster@gmail.com?subject=I%20would%20like%20to%20contact%20you%20about%20your%20portfolio" target="_blank" role="button">Email me</a>
+                    <a class="btn btn-dark"
+                        href="mailto:kelly.b.tadcaster@gmail.com?subject=I%20would%20like%20to%20contact%20you%20about%20your%20portfolio"
+                        target="_blank" role="button">Email me</a>
                 </li>
                 <li>
                     <!-- Link to my GitHub -->
